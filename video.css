@@ -1,0 +1,56 @@
+body{
+    font-size: larger;
+    background:linear-gradient(rgb(6, 6, 73), rgb(38, 0, 82)) ;
+
+}
+    
+
+.cabecalho{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    
+}
+.cabecalho-item{
+    font-family:  'Montserrat', sans-serif;
+    color: azure;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;}
+
+
+.conteudo{
+    margin-bottom: 48px;
+
+    border-top: 0.4px solid white;
+    }
+
+   
+video{
+    align-items: center;
+}
+
+ul{
+    text-align: center;
+    color: azure;
+}
+ 
+.vid{
+    padding: 0 20rem 0 20rem;
+
+}

@@ -1,0 +1,85 @@
+body{
+    font-size: larger;
+    background:linear-gradient(rgb(6, 6, 73), rgb(38, 0, 82)) ;
+
+}
+    
+
+.cabecalho{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    
+}
+.cabecalho-item{
+    font-family:  'Montserrat', sans-serif;
+    color: azure;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;}
+
+
+.conteudo{
+    margin-bottom: 48px;
+
+    border-top: 0.4px solid white;
+    }
+
+   
+   
+
+    h1{
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        color: blueviolet;
+    }
+    h2{
+        color: blueviolet;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        align-items: center;
+    }
+    
+    h3{
+        
+        font-family: 'Oswald', sans-serif;
+        color:blueviolet;
+        text-align: center;
+    }
+    
+    h4{
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    ul{
+        text-align: left;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: azure;
+        
+    }
+    
+    
+ol{
+        color:azure;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        position: relative;
+   }
